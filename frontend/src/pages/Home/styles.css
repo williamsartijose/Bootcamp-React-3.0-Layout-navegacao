@@ -1,0 +1,138 @@
+.home-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.home-bottom-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-bottom-card p {
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.bcolor-grey {
+  background-color: #ededed;
+}
+
+.bcolor-blue {
+  background-color: #00285f;
+}
+
+.home-content-container {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-content-container h1 {
+  font-size: 28px;
+  padding: -20px;
+}
+
+.home-container p {
+  font-size: 1em;
+  padding-bottom: 40px;
+  font-weight: 400;
+  font-style: normal;
+  size: 18px;
+}
+
+.home-image-container {
+  padding: 30px 15px;
+}
+
+.home-image-container svg {
+  width: 335px;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    padding: 15px;
+  }
+
+  .home-content-container h1 {
+    width: 506px;
+    margin-bottom: 20px;
+  }
+
+  .home-content-container p {
+    width: 506px;
+    margin-bottom: 20px;
+  }
+
+  .home-image-container svg {
+    width: 335px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-image-container {
+    padding: 20px;
+  }
+
+  .home-content-container {
+    padding: 20px 20px;
+  }
+  .home-image-container svg {
+    width: 335px;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container {
+    padding: 40px;
+  }
+
+  .home-image-container {
+    padding: 20px;
+  }
+
+  .home-content-container h1 {
+    width: 700px;
+    margin-bottom: 26px;
+  }
+
+  .home-content-container p {
+    width: 700px;
+    margin-bottom: 47px;
+  }
+
+  .home-image-container svg {
+    width: 455px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-card {
+    align-items: center;
+  }
+
+  .home-content-container {
+    height: 365px;
+    width: 979px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home-image-container svg {
+    width: 335px;
+  }
+}

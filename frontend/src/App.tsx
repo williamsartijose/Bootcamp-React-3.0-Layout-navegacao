@@ -1,11 +1,10 @@
-import "./assets/styles/custom.scss";
-import "./App.css";
-import Navbar from "./components/Navbar";
+import 'assets/styles/custom.scss';
+import './App.css';
 
-function App()  {
-  return ( 
-  <Navbar />
-  );
-};
+import Routes from 'Routes';
+
+function App() {
+  return <Routes />;
+}
 
 export default App;
